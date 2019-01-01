@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+  font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+  background: #f1f2f3;
+}
+
+.nav {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 1.4em;
+  padding-left: 3em;
+  margin: 0;
+  background: #FFFFFF;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  font-size: .8em;
+  padding: 13px 1em;
+  margin: 0;
+  margin-top: -10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav li:hover {
+  background: #EEEEEE;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 3px;
+  border: 0;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background: #FFFFFF;
+  margin: 1em;
+  width: 20em;
+  outline: 0;
+}
+
+input:focus, button:focus {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1.5px #2A70FE !important;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1.5px #2A70FE !important;
+}
+
+input:hover, button:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+button {
+  border-radius: 3px;
+  border: 0;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background: #FFFFFF;
+  margin: 1em;
+  outline: 0;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.success:focus {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1.5px #13bb56 !important;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1.5px #13bb56 !important;
+}
